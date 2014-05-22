@@ -1,8 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="com.phonegap.plugins.tealium" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>TealiumPlugin</name>
+    <description>Apache Cordova Plugin for Tealium Tag Management</description>
+    <author>Sajib Hassan (https://github.com/sajib-hassan), Behestee (https://github.com/behestee)</author>
+    <license>Apache 2.0</license>
+    <keywords>cordova,Tealium</keywords>
+    <repo>https://github.com/behestee/cordova-plugin-tealium.git</repo>
     <js-module name="TealiumPlugin" src="www/TealiumPlugin.js">
-        <clobbers target="cordova.plugins.TealiumPlugin" />
+        <clobbers target="Tealium" />
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
